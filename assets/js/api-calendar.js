@@ -1,19 +1,19 @@
 (function(){
 function getCalendar() {
-  const CALENDAR_ID = 'rt7upiraveki91ackkut994pds@group.calendar.google.com';
+  const CALENDAR_ID = 'sar7lgga2a5iq4m1e5db418vr8@group.calendar.google.com';
   const CALENDAR_API = 'AIzaSyDYFeOpGG5KZ20hxmswJzZh3snZpGtfga4';
   const googleURL = 'https://www.googleapis.com/calendar/v3/calendars/';
   const timeMin = new Date(new Date().setHours(0, 0, 0, 0)).toISOString();
 
   function formatDateAndTime(dateTime, formatType) {
     const date = {
-      timeZone: 'America/Los_Angeles',
+      timeZone: 'America/New_York',
       weekday: 'long',
       day: 'numeric',
       month: 'long',
     };
     const time = {
-      timeZone: 'America/Los_Angeles',
+      timeZone: 'America/New_York',
       hour: 'numeric',
       minute: 'numeric',
     };

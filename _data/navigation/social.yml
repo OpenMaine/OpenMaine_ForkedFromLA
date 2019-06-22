@@ -1,35 +1,29 @@
 - name: Meetup
-  link: https://www.meetup.com/hackforla/
+  link: https://github.com/openmaine
   icon: /svg/icon-meetup.svg
-  header: false
+  header: true
   footer: true
 
 - name: Github
-  link: https://github.com/hackforla
+  link: https://github.com/openmaine
   icon: /svg/icon-github.svg
   header: true
   footer: true
 
 - name: Slack
-  link: https://hackforla-slack.herokuapp.com/
+  link: https://openmaine.slack.com/
   icon: /svg/icon-slack.svg
   header: true
   footer: true
 
 - name: Facebook
-  link: https://www.facebook.com/hackforla
+  link: https://www.facebook.com/openmaine
   icon: /svg/icon-facebook.svg
   header: true
   footer: true
 
-- name: Medium
-  link: https://medium.com/hack-for-la
-  icon: /svg/icon-medium.svg
-  header: true
-  footer: true
-
 - name: Twitter
-  link: https://twitter.com/HackForLA
+  link: https://twitter.com/Open_Maine
   icon: /svg/icon-twitter.svg
-  header: false
+  header: true
   footer: true

@@ -1,29 +1,19 @@
 <section id="hack-nights" class="content-section section-hack-nights">
     <div class="page-contain">
-        <h2>Hack Nights - Every Monday &amp; Tuesday</h2>
-        <p>We host weekly Hack Nights in Downtown Los Angeles and Santa Monica. At these events, we organize groups of
-            volunteers to build technology addressing the LA region’s biggest civic issues. Each night offers an
+        <h2>Events</h2>
+        <p>We host monthly Hack Nights in downtown Portland, usually on the third Thursday of the month. At these events, we organize groups of
+            volunteers to build technology addressing Maine's biggest civic issues. Each night offers an
             inclusive, diverse community, and everyone is welcome. Join an existing project team or pitch your own civic
             issue.</p>
-        <div class="locations">
-            {%- assign hacknights = site.hack-nights | sort: 'ordinal' -%}
-            {%- for item in hacknights -%}
-            <div class="location">
-                <div class="location-img" style="background-image: url({{ item.image | absolute_url }})"></div>
-                <div class="location-details">
-                    <strong>{{ item.title }}</strong> {{ item.event-date }}
-                    <address>
-                        <a href={{ item.map }} rel="noopener" target="_blank">
-                            {{ item.address1 }}<br>{{ item.address2 }}, {{ item.city }}, {{ item.state }} {{ item.zip }}
-                        </a>
-                    </address>
-                </div>
-            </div>
-            {%- endfor -%}
-        </div>
-        <p>
-            <a href="https://www.meetup.com/hackforla/" rel="noopener" target="_blank" class="btn btn-primary">RSVP on Meetup</a>
-            <a href="http://hackforla-slack.herokuapp.com/" rel="noopener" target="_blank" class="btn btn-primary">Join our Slack</a>
-        </p>
+
+            {%- include calendar.html -%}
+
+            <p>
+                <a href="https://www.meetup.com/OpenMaine/" rel="noopener" target="_blank" class="btn btn-primary">RSVP on Meetup</a>
+            </p>
+
+<h3>Offline Collaboration</h3>
+<p>Unable to make it to an event? Want to get started on something before the next meeting? Join the conversation or a project on Slack.</p>
+                  <a href="http://hackforla-slack.herokuapp.com/" rel="noopener" target="_blank" class="btn btn-primary">Join our Slack</a>
     </div>
 </section>

@@ -1,6 +1,6 @@
-<section id="projects" class="content-section projects">  
+<section id="projects" class="content-section projects">
   <div class="page-contain projects-inner">
-    <h2 class="project-header">Current Projects</h2>
+    <h2 class="project-header">Projects</h2>
       <ul class="project-list unstyled-list">
         {%- for item in site.projects -%}
           {%- if item.hide != true -%}
@@ -14,13 +14,13 @@
                   <p class="project-description">{{ item.description }}</p>
                   {%- if item.links -%}
                     <div class="project-links">
-                      <strong>Links: </strong> 
-                        {%- for item in item.links -%} 
+                      <strong>Links: </strong>
+                        {%- for item in item.links -%}
                           <a href={{ item.url }} rel="noopener" target='_blank'> {{ item.name }}</a>{%- if forloop.last == false -%},
                           {%- endif -%}
                         {%- endfor -%}
                     </div>
-                  {%- endif -%} 
+                  {%- endif -%}
                   {%- if item.partner -%}
                     <div class="project-partner">
                     <strong>Partner: </strong>
@@ -33,7 +33,7 @@
                         {{ item.looking }}
                     </div>
                   {%- endif -%}
-                  
+
                   {%- if item.location -%}
                     <div class="project-location">
                       <strong>Location: </strong>
@@ -46,8 +46,7 @@
           {%- endif -%}
         {%- endfor -%}
       </ul>
-    <p class="project-pitch">Have an idea?
-              <a href="#contact" class="btn btn-primary">Submit your pitch</a>
-    </p>
+    <p class="project-pitch">Have an idea? Tell us on Slack.
+<a href="http://hackforla-slack.herokuapp.com/" rel="noopener" target="_blank" class="btn btn-primary">Join our Slack</a>  </p>
   </div>
 </section>

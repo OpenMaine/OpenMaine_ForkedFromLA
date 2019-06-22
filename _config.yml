@@ -3,12 +3,12 @@ safe: true
 
 source: .
 
-title: Hack for LA
-email: hello@hackforla.org
-description: Hack for LA's website!
+title: Open Maine
+email: hello@openmaine.org
+description: Open Maine's website!
 
 baseurl: ""
-url: https://www.hackforla.org
+url: https://www.openmaine.org
 
 
 collections:
