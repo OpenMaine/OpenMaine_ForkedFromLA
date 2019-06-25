@@ -43,10 +43,10 @@
   }
 
   .branding {
-    @include position(absolute, -20px null null -40px);
+    @include position(absolute, -1px null null -1px);
 
     @media #{$bp-tablet-up} {
-      left: -20px;
+      left: -1px;
     }
   }
 }
