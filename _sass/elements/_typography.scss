@@ -28,7 +28,7 @@ h1,
 
 h2,
 .type-h2 {
-  color: $color-red;
+  color: $color-blue;
   font: map-get($font-weight, bold) #{map-get($font-size-h2, mobile)} / #{map-get(
       $line-height-h2,
       mobile
@@ -37,6 +37,7 @@ h2,
 
 h3,
 .type-h3 {
+  color: $color-blue;
   font: map-get($font-weight, bold) #{map-get($font-size-h3, mobile)} / #{map-get(
       $line-height-h3,
       mobile
@@ -45,7 +46,7 @@ h3,
 
 h4,
 .type-h4 {
-  color: $color-red;
+  color: $color-blue;
   font: map-get($font-weight, bold) #{map-get($font-size-h4, mobile)} / #{map-get(
       $line-height-h4,
       mobile

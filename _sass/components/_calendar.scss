@@ -1,9 +1,9 @@
 .cal-title {
-  color: $color-red;
+  color: $color-blue;
 }
 
 .cal-container {
-  background-color: $color-white;
+  background-color: $color-teal;
   border-radius: 16px;
   padding: 5px;
 
@@ -39,7 +39,7 @@
   }
 
   &--title {
-    color: $color-red;
+    color: $color-blue;
     font-size: #{map-get($font-size-h4, mobile)};
 
     @media #{$bp-tablet-up} {
