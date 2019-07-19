@@ -7,7 +7,7 @@ title: Open Maine
 email: hello@openmaine.org
 description: Open Maine's website!
 
-baseurl: "/OpenMaine_ForkedFromLA/"
+baseurl: /OpenMaine_ForkedFromLA/
 url:  https://openmaine.github.io/
 
 
