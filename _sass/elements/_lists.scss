@@ -18,3 +18,13 @@
     }
   }
 }
+
+@media #{$bp-below-tablet} {
+  .inline-list > li:first-of-type {
+      display: block;
+  }
+
+  .main-header .social-list > li:first-of-type {
+    margin-right: 0;
+  }
+}
