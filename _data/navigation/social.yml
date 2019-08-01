@@ -19,11 +19,11 @@
 - name: Facebook
   link: https://www.facebook.com/openmaine
   icon: /svg/icon-facebook.svg
-  header: true
+  header: false
   footer: true
 
 - name: Twitter
   link: https://twitter.com/Open_Maine
   icon: /svg/icon-twitter.svg
-  header: true
+  header: false
   footer: true

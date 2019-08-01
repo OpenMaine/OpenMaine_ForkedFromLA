@@ -101,7 +101,7 @@ function getCalendar() {
         }
       })
       .catch(() => {
-        errEventsDisplay('Sorry, the Google Calendar API seems not to be working temporarily.  Please see our meetup link above for the latest events.');
+        errEventsDisplay('Sorry, the Google Calendar API seems not to be working temporarily.  Please see our meetup link below for the latest events.');
       });
   }
   fetchCalendar(fetchURL);
