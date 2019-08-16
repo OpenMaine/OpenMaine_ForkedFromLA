@@ -3,9 +3,9 @@ safe: true
 
 source: .
 
-title: Open Maine
+title: OpenMaine
 email: hello@openmaine.org
-description: Open Maine's website!
+description: OpenMaine's website
 
 baseurl: /OpenMaine_ForkedFromLA
 url: https://openmaine.github.io/
